@@ -37,15 +37,14 @@ namespace FilmKiralamaDukkani
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Film film = new Film();
+            string name = textBox1.Text;
+            string category = textBox2.Text;
+            string duration = textBox3.Text;
+            string imdb = textBox4.Text;
+            string date = textBox5.Text;
 
-            film.name = textBox1.Text;
-            film.category = textBox2.Text;
-            film.duration = textBox3.Text;
-            film.imdb = textBox4.Text;
-            film.date = textBox5.Text;
-          
-            film.addFilm();
+            Film film = new Film();
+            film.addFilm(name, category, duration, imdb, date);
 
             this.Hide();
             Form5 form5 = new Form5();

@@ -25,7 +25,7 @@ namespace FilmKiralamaDukkani
 
             DataGridViewCheckBoxColumn checkBoxColumn = new DataGridViewCheckBoxColumn();
             checkBoxColumn.HeaderText = "Seç";
-            checkBoxColumn.Name = "checkBoxColumn";
+            checkBoxColumn.Name = "Seç";
             dataGridView1.Columns.Add(checkBoxColumn);
         }
 
@@ -71,7 +71,7 @@ namespace FilmKiralamaDukkani
 
             DataGridViewCheckBoxColumn checkBoxColumn = new DataGridViewCheckBoxColumn();
             checkBoxColumn.HeaderText = "Seç";
-            checkBoxColumn.Name = "checkBoxColumn";
+            checkBoxColumn.Name = "Seç";
             dataGridView1.Columns.Add(checkBoxColumn);
         }
 
@@ -181,7 +181,7 @@ namespace FilmKiralamaDukkani
 
             DataGridViewCheckBoxColumn checkBoxColumn = new DataGridViewCheckBoxColumn();
             checkBoxColumn.HeaderText = "Seç";
-            checkBoxColumn.Name = "checkBoxColumn";
+            checkBoxColumn.Name = "Seç";
             dataGridView1.Columns.Add(checkBoxColumn);
         }
 

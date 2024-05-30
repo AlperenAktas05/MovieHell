@@ -27,6 +27,7 @@ namespace FilmKiralamaDukkani
             Form1 form1 = new Form1();
             form1.Show();
         }
+
         public void button1_Click(object sender, EventArgs e)
         {
             this.Hide();

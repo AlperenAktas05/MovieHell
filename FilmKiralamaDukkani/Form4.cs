@@ -33,7 +33,7 @@ namespace FilmKiralamaDukkani
 
         private void button2_Click(object sender, EventArgs e)
         {
-            var selectedRowsCount = dataGridView1.Rows.Cast<DataGridViewRow>().Count(row => Convert.ToBoolean(row.Cells["checkBoxColumn"].Value));
+            var selectedRowsCount = dataGridView1.Rows.Cast<DataGridViewRow>().Count(row => Convert.ToBoolean(row.Cells["Seç"].Value));
 
             this.Hide();
             Form7 form7 = new Form7(selectedRowsCount);

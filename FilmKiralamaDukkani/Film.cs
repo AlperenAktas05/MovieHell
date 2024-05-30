@@ -16,8 +16,14 @@ namespace FilmKiralamaDukkani
         public string imdb { get; set; }
         public string date { get; set; }
 
-        public void addFilm()
+        public void addFilm(string name, string category, string duration, string imdb, string date)
         {
+            this.name = name;
+            this.category = category;
+            this.duration = duration;
+            this.imdb = imdb;
+            this.date = date;
+
             string path = "films.txt";
             string filmInfo = $"{name},{category},{duration},{imdb},{date}";
 

@@ -96,7 +96,7 @@
             this.textBox1.ForeColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(507, 166);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(248, 30);
+            this.textBox1.Size = new System.Drawing.Size(254, 30);
             this.textBox1.TabIndex = 17;
             // 
             // textBox2
@@ -106,7 +106,7 @@
             this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(507, 241);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(248, 30);
+            this.textBox2.Size = new System.Drawing.Size(254, 30);
             this.textBox2.TabIndex = 19;
             // 
             // label4
@@ -127,7 +127,7 @@
             this.textBox4.ForeColor = System.Drawing.Color.White;
             this.textBox4.Location = new System.Drawing.Point(507, 391);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(248, 30);
+            this.textBox4.Size = new System.Drawing.Size(254, 30);
             this.textBox4.TabIndex = 23;
             // 
             // label5
@@ -148,7 +148,7 @@
             this.textBox3.ForeColor = System.Drawing.Color.White;
             this.textBox3.Location = new System.Drawing.Point(507, 317);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(248, 30);
+            this.textBox3.Size = new System.Drawing.Size(254, 30);
             this.textBox3.TabIndex = 21;
             // 
             // label6
@@ -166,7 +166,7 @@
             // 
             this.button1.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(530, 525);
+            this.button1.Location = new System.Drawing.Point(535, 525);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(200, 75);
             this.button1.TabIndex = 24;
@@ -181,7 +181,7 @@
             this.textBox5.ForeColor = System.Drawing.Color.White;
             this.textBox5.Location = new System.Drawing.Point(507, 466);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(248, 30);
+            this.textBox5.Size = new System.Drawing.Size(254, 30);
             this.textBox5.TabIndex = 26;
             // 
             // label7

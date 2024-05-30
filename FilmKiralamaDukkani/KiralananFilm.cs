@@ -19,7 +19,7 @@ namespace FilmKiralamaDukkani
 
         public void rentFilms(DataGridView dataGridView1)
         {
-            var selectedRows = dataGridView1.Rows.Cast<DataGridViewRow>().Where(row => Convert.ToBoolean(row.Cells["checkBoxColumn"].Value)).ToList();
+            var selectedRows = dataGridView1.Rows.Cast<DataGridViewRow>().Where(row => Convert.ToBoolean(row.Cells["Seç"].Value)).ToList();
 
             try
             {
@@ -60,7 +60,7 @@ namespace FilmKiralamaDukkani
 
         public void returnFilms(DataGridView dataGridView1)
         {
-            var selectedRows = dataGridView1.Rows.Cast<DataGridViewRow>().Where(row => Convert.ToBoolean(row.Cells["checkBoxColumn"].Value)).ToList();
+            var selectedRows = dataGridView1.Rows.Cast<DataGridViewRow>().Where(row => Convert.ToBoolean(row.Cells["Seç"].Value)).ToList();
 
             try
             {
@@ -101,7 +101,7 @@ namespace FilmKiralamaDukkani
 
         public void returnFilms2(DataGridView dataGridView1)
         {
-            var selectedRows = dataGridView1.Rows.Cast<DataGridViewRow>().Where(row => Convert.ToBoolean(row.Cells["checkBoxColumn"].Value)).ToList();
+            var selectedRows = dataGridView1.Rows.Cast<DataGridViewRow>().Where(row => Convert.ToBoolean(row.Cells["Seç"].Value)).ToList();
 
             try
             {
